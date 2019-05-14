@@ -1,0 +1,12 @@
+show interfaces terse
+show interfaces statistics brief
+show interfaces | match flap
+show arp
+show route summary
+show ospf neighbor instance all 
+show bfd session 
+show bgp summary
+show chassis alarms
+show system alarms
+show chassis environment
+show chassis fpc pic-status
