@@ -14,7 +14,7 @@ password = 'cisco'
 try:
     # Read the Router IPs form a file and save it to List Variable(host_list), each list item contain router name and its IP
     host_list = []
-    host_file = open("C:\\Users\\Bemwa\\PycharmProjects\\Para-test\\hosts.txt","r")
+    host_file = open("C:\\Python_Projects\\Para-test\\hosts.txt","r")
     host_file.seek(0)
 
     for each_line in host_file.readlines():
