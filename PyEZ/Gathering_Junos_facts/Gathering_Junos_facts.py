@@ -79,7 +79,7 @@ for no in range(len(facts_List)):
     while y < len(vlaues):
         worksheet.write(x,y,str(vlaues[y]))
         y = y + 1
-workbook.save("PACO-Juniper inventory-3.xls")
+workbook.save("Juniper inventory.xls")
 
 end_time = datetime.datetime.now().replace(microsecond=0)
 print ("total_time " + str(end_time - start_time))
