@@ -27,6 +27,7 @@ for index in range(1, sheet.nrows):
 
 # Using Netmiko , Loop to pass all devices and extract certain facts and save to facts_List > it's list of DIC
 # each Dic represent one device
+
 facts_List = []
 for item in device_list:
     dev = Device(host=item["ip"],user=item["username"],password=item["password"],port=22)
