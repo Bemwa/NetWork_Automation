@@ -25,6 +25,7 @@ for index in range(1, sheet.nrows):
         'password': password,
     }
     device_list.append(device)
+
 q = 0
 # for loop to pass the device [] and use the credinitials to connect using PyEZ over port TCP 22
 for item in device_list:
