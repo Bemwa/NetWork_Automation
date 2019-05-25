@@ -35,7 +35,8 @@ for item in device_list:
         print ("connected to " + dev.facts["hostname"])
         q = q + 1
         Box = Config(dev)
-        Uncommitted = Box.diff()
+        # create var to save the diff conf , you can change the rb_id# to define which committed configuration you need to comapre with
+        Uncommitted = Box.diff(rb_id=0)
         # if section to check if there are an Uncommitted Changes to be displayed before rollback
         if Uncommitted:
             print "There are an Uncommitted Changes"
