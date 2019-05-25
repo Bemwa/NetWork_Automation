@@ -1,3 +1,6 @@
+__author__ = "Bemwa Refaat Aziz"
+__EMAIL__ = "engbmwa@gmail.com"
+
 import telnetlib
 import time
 import datetime
