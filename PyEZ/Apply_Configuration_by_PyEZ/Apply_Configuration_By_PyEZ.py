@@ -36,6 +36,7 @@ for item in device_list:
     try:
         dev.open()
         jo = Config(dev,mode='private')
+        # you can change the foramt to xml,set,text,json
         jo.load(path="C:\\python_Scripts\\Apply_Junos_Conf\\Junos_cmds.txt",merge=True,format="set")
         print jo.diff()
         jo.commit()
