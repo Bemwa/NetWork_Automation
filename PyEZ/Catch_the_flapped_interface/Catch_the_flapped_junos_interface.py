@@ -81,7 +81,6 @@ for item in device_list:
 end_time = datetime.datetime.now().replace(microsecond=0)
 print ("total_time " + str(end_time - start_time))
 
-
 z = raw_input(" Press any key to Exit ")
 while z != "":
     exit()
