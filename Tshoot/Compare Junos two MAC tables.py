@@ -1,3 +1,6 @@
+__author__ = "Bemwa Refaat Aziz"
+__EMAIL__ = "engbmwa@gmail.com"
+
 import xml.etree.ElementTree as ET
 
 def extract_mac_details(file_name):
